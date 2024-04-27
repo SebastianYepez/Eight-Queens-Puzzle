@@ -1,10 +1,10 @@
 # Eight-Queens-Puzzle
 
 ## Description
-The Eight Queens Puzzle is a chess board dilemma in which the objective is to place eight queens on an 8 x 8 chessboard in such a manner that no two queens threaten each other. In this implementation, I've added a twist: the programmer can adjust the board size during compilation, offering flexibility in solving the puzzle.
+In chess, a queen can attack in any direction: horizontally, vertically, or diagonally. Therefore, the goal of the Eight Queens Puzzle is to arrange the queens in such a manner that no two queens share the same row, column, or diagonal. This program utilizes recursion in order to determine the first possible arrangement of queens based on a user-input initial starting square. What makes this program unique, however, is that the board size is not limited to 8 x 8! Feel free to solve this dilemma on a 15 x 15 board.
 
 ## Functionality
-This program utilizes a backtracking algorithm through the use of recursion in order to find the first possible "path" of which the n number of queens can be placed.
+This program utilizes a backtracking algorithm through the use of recursion in order to determine the first possible arrangement of the n number of queens based on a user-input initial starting square
 
 ## Usage
 If desired, one could adapt the code so that the board size could be determined by the user during runtime, but they would have to utilize a dynamic array in order to achieve this implementation.
